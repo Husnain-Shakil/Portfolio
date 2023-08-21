@@ -6,7 +6,7 @@ import AboutMe from './components/about me/AboutMe'
 import Projects from './components/projects/Projects'
 import ContactMe from './components/contact me/ContactMe'
 import Resume from './components/resume/Resume'
-import ScrollButton from './components/scroll button/scrollButton'
+import ScrollButton from './components/scroll button/ScrollButton'
 import Closing from './components/closings/Closing'
 
 const App = () => {
