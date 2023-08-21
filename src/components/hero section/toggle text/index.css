@@ -1,0 +1,30 @@
+.heroBanner-skills{
+    display: flex;
+    margin: 3px 0;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.profile-parent .skill{
+    font-family: 'Raleway', sans-serif;
+}
+
+.heroBanner-slash{
+    z-index: -1;
+}
+
+.heroBanner-slash2{
+    z-index: 1;
+}
+
+@media (max-width: 1024px) {
+    .heroBanner-skills{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .heroBanner-skills{
+        font-size: 1.5rem;
+    }
+}

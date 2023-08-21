@@ -1,0 +1,74 @@
+
+.about-me-headings{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: left;
+}
+
+.about-me-heading{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    /* gap: 15px; */
+    align-items: center;
+}
+
+.main-sub{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-main-heading{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.about-main-heading .details-bullet{
+    background-color: #FF5823;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    position: absolute;
+    left: -20px;
+}
+
+.institute-name{
+    color: #FF5823;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.about-sub-heading{
+    color: #333333;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.heading-date{
+    text-align: right;
+}
+
+.date{
+    background-color: #FF5823;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 430px) {
+    .institute-name{
+        font-size: 1rem;
+    }
+    .about-sub-heading{
+        font-size: 0.8rem;
+    }          
+    .date{
+        font-size: 0.6rem;
+        padding: 8px;
+    }
+}
